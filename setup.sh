@@ -1,5 +1,5 @@
-sudo apt update
-sudo apt install aircrack-ng
+sudo apt update -y
+sudo apt install aircrack-ng -y
 curl -L -o rockyou.txt https://github.com/brannondorsey/naive-hashcat/releases/download/data/rockyou.txt
 
 ip=$(curl icanhazip.com)
